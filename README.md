@@ -6,7 +6,7 @@
 
 A machine learning project comparing multiple supervised algorithms to predict heart disease using the [Heart Disease UCI dataset](https://www.kaggle.com/ronitf/heart-disease-uci). Includes data preprocessing, exploratory analysis, model implementation, and performance evaluation.
 
-## 📋 Table of Contents
+<!-- ## 📋 Table of Contents
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,19 +14,19 @@ A machine learning project comparing multiple supervised algorithms to predict h
 - [Model Comparison](#model-comparison)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments) -->
 
-## 🗂 Dataset
+## Dataset
 The **Heart Disease UCI Dataset** contains 14 attributes related to patient health metrics (e.g., age, cholesterol levels, chest pain type) and a binary target variable indicating the presence of heart disease.  
 **Download Instructions**:
 1. Create a Kaggle account [here](https://www.kaggle.com/account/login?phase=startSignInTab&returnUrl=%2F).
 2. Navigate and Download the `ronitf/heart-disease-uci` dataset 
 3. Unzip the file and place `heart.csv` in the `data/` directory.
 
-<!-- ## 🛠 Installation
+## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Heart-Disease-UCI-Model-Comparison.git
+   git clone https://github.com/barkiayoub/ML-Model-Comparison.git
    ```
 2. Install dependencies:
    ```bash
@@ -41,7 +41,7 @@ The **Heart Disease UCI Dataset** contains 14 attributes related to patient heal
    seaborn==0.11.2
    jupyter==1.0.0
    kaggle==1.5.12
-   ``` -->
+   ```
 
 <!-- ## 🚀 Usage
 1. **Data Preparation**: Clean missing values, encode categorical features, and normalize data.  
@@ -75,17 +75,11 @@ Key insights from EDA:
 ## 🤝 Contributing
 Contributions are welcome! Open an issue or submit a pull request. Ensure code follows PEP8 guidelines. -->
 
-## 📜 License
+## License
 Distributed under the MIT License. See `LICENSE` for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - Dataset: [Heart Disease UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from UCI, hosted on Kaggle.
 - Libraries: `pandas`, `scikit-learn`, `matplotlib`.
 ``` 
 
----
-
-**Notes**:
-1. Replace `yourusername` in the clone URL with your GitHub username.
-2. Adjust the `results` and `model comparison` sections based on your actual findings.
-3. Add badges or additional sections (e.g., "FAQ") as needed.
