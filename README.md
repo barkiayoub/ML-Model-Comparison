@@ -23,6 +23,28 @@ The **Heart Disease UCI Dataset** contains 14 attributes related to patient heal
 2. Navigate and Download the `ronitf/heart-disease-uci` dataset 
 3. Unzip the file and place `heart.csv` in the `data/` directory.
 
+## Models Used
+The following machine learning models were trained and evaluated
+
+1. Logistic Regression - Optimized for linear decision boundaries.
+2. Decision Tree Classifier - Optimized for interpretability and capturing complex patterns.
+3. Random Forest Classifier - Optimized for reducing overfitting and improving accuracy.
+4. K-Nearest Neighbors (KNN) - Optimized for non-linear decision boundaries and handling small datasets.
+
+## Preprocessing Steps
+- Handling Missing Values Numerical values were imputed using the median, and categorical values were imputed using the most frequent value.
+- Feature Scaling Standardization was applied to numerical features.
+- Encoding Categorical Data Label encoding was used for categorical variables.
+- Train-Test Split The dataset was split into training and testing sets.
+
+## Results
+The models were evaluated using accuracy as the primary metric. The obtained results are
+
+- Logistic Regression 83% accuracy
+- Decision Tree Classifier 77% accuracy
+- Random Forest Classifier 86% accuracy
+- KNN Classifier 85% accuracy
+
 ## Installation
 1. Clone the repository:
    ```bash
@@ -37,49 +59,12 @@ The **Heart Disease UCI Dataset** contains 14 attributes related to patient heal
    pandas==1.3.3
    numpy==1.21.2
    scikit-learn==1.0
-   matplotlib==3.4.3
-   seaborn==0.11.2
    jupyter==1.0.0
-   kaggle==1.5.12
    ```
-
-<!-- ## 🚀 Usage
-1. **Data Preparation**: Clean missing values, encode categorical features, and normalize data.  
-   See `notebooks/data_preprocessing.ipynb`.
-2. **Exploratory Analysis**: Visualize distributions, correlations, and heatmaps.  
-   See `notebooks/exploratory_analysis.ipynb`.
-3. **Model Implementation**:  
-   - Algorithms: KNN, SVM, Decision Tree, Logistic Regression, Linear Regression.  
-   - 5-fold cross-validation for evaluation.  
-   - Metrics: Accuracy, F1-Score (classification); MSE, R² (regression).  
-   Code in `scripts/train_models.py`.
-
-## 📊 Results
-**Best Performing Models**:
-- **Classification**: Logistic Regression achieved the highest F1-score (0.85) and accuracy (88%).  
-- **Regression**: Linear Regression had the lowest MSE (0.12) but was less interpretable for binary classification.  
-
-Key insights from EDA:
-- Strong correlation between `thalach` (max heart rate) and target.
-- Age and cholesterol showed moderate predictive power.
-
-## 📈 Model Comparison
-| Model              | Accuracy (%) | F1-Score | MSE   | Training Time (s) |
-|--------------------|--------------|----------|-------|-------------------|
-| Logistic Regression| 88           | 0.85     | -     | 0.8               |
-| KNN                | 82           | 0.79     | -     | 1.2               |
-| Decision Tree      | 78           | 0.75     | -     | 0.5               |
-| SVM                | 84           | 0.81     | -     | 3.1               |
-| Linear Regression  | -            | -        | 0.12  | 0.6               |
-
-## 🤝 Contributing
-Contributions are welcome! Open an issue or submit a pull request. Ensure code follows PEP8 guidelines. -->
 
 ## License
 Distributed under the MIT License. See `LICENSE` for details.
 
 ## Acknowledgments
 - Dataset: [Heart Disease UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from UCI, hosted on Kaggle.
-- Libraries: `pandas`, `scikit-learn`, `matplotlib`.
-``` 
 
